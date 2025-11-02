@@ -2,6 +2,10 @@
 
 Ce projet est un chatbot conçu pour présenter un portfolio interactif.
 
+note : le site a été dsigné pour ordinateur, mais est accessible sur téléphone.
+
+lien : https://alegodix.github.io/portfolio_chatbot/ 
+
 ## Fonctionnalités
 
 - Présentation des projets
