@@ -112,7 +112,7 @@ h2::after { content: ""; display: block; width: 60px; height: 4px; background: #
     }
 
     .project-subsite img:hover {
-      transform: translateY(-8px); /* agrandit l’image (120%) */
+      transform: translateY(-8px); 
     }
 
 /* ====== BOUTONS ====== */
