@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Mini "IA" par règles simples
-  appendMessage('bot', "Bonjour 👋 ! Je suis le mini-assistant d’Alexandre. Posez-moi une mini-question sur ses projets, son GitHub ou son contact.");
+  appendMessage('bot', "Bonjour ! Je suis le mini-assistant d’Alexandre. Posez-moi une mini-question sur ses projets, son GitHub ou son contact.");
 
   function miniAI(message) {
     const msg = message.toLowerCase();
