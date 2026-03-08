@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function fetchAIResponse(userMessage) {
     try {
       /* URL de l'API*/
-      const API_URL = "https://portfolio-xe3l.vercel.app/"; 
+      const API_URL = "https://portfolio-xe3l.vercel.app/api/chat"; // Remplace par l'URL de ton API déployée sur Vercel
 
       const response = await fetch(API_URL, {
         method: "POST",
