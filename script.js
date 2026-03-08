@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
        * ou de ta fonction Netlify/Vercel. Ce serveur cachera ta clé secrète OpenAI/Gemini.
        * Pour l'instant, c'est une URL fictive pour l'exemple.
        */
-      const API_URL = "https://ton-backend-vercel.app/api/chat"; 
+      const API_URL = "https://portfolio-xe3l.vercel.app/"; 
 
       const response = await fetch(API_URL, {
         method: "POST",
