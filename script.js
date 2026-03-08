@@ -26,10 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // NOUVEAU : Fonction Asynchrone pour appeler l'IA
   async function fetchAIResponse(userMessage) {
     try {
-      /* * ATTENTION : L'URL ci-dessous doit être l'URL de TON propre serveur (Backend) 
-       * ou de ta fonction Netlify/Vercel. Ce serveur cachera ta clé secrète OpenAI/Gemini.
-       * Pour l'instant, c'est une URL fictive pour l'exemple.
-       */
+      /* URL de l'API*/
       const API_URL = "https://portfolio-xe3l.vercel.app/"; 
 
       const response = await fetch(API_URL, {
