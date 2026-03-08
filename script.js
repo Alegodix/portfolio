@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Message d'accueil
-  appendMessage('bot', "Bonjour ! Je suis l'assistant IA d’Alexandre. Posez-moi vos questions sur son parcours à CY Tech, ses projets ou ses compétences !");
+  appendMessage('bot', "Bonjour ! Je suis l'assistant IA d’Alexandre. Posez-moi vos questions sur son parcours à CY Tech, ses projets ou ses compétences ! Note : Si vous êtes sur l'adresse alegodix.github.io/portfolio, le chatbot est en mode démo et ne répondra pas à vos questions. Pour une expérience complète, visitez son portfolio hébergé sur Vercel : portfolio-algo.vercel.app");
 
   // NOUVEAU : Fonction Asynchrone pour appeler l'IA
   async function fetchAIResponse(userMessage) {
